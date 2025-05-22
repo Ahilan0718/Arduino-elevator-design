@@ -1,4 +1,4 @@
-# <center>**<font color="yellow">ARDUINO ELEVATOR DESIGN</font>**</center>
+# <center><font color="yellow">**ARDUINO ELEVATOR DESIGN**</font></center>
 ### **<font color="lighblue">Table of Contents:</font>**
 1. <a href="#overview">Overview</a>
 2. <a href="#hardware-components">Hardware components</a>
@@ -12,7 +12,7 @@
 10. <a href="#direct-link">Direct link</a>
 
 > ## ***<font color="lighblue">OVERVIEW</font>***
-  A simple arduino-based elevator design for three floors with two second travel time to each floor indicated by LEDs. Enabled by a DC motor installed with a L293D motor driver module. Designed in TinkerCAD.
+  **A simple arduino-based elevator design for three floors with two second travel time to each floor indicated by LEDs. Enabled by a DC motor installed with a L293D motor driver module. Designed in TinkerCAD.**
 
 > ## ***<font color="lighblue">HARDWARE COMPONENTS</font>***
 **1. Arduino UNO Rev3**  
@@ -27,7 +27,7 @@
 
 > ## ***<font color="lighblue">CODE</font>***
 **Can be coded in <mark>C++ or Arduino IDE</mark> or any other compatible software.**
-```cpp
+<pre><code>
 
 const int motorPin1 = 8;  
 const int motorPin2 = 9;  
@@ -99,7 +99,7 @@ void updateLEDs() {
   digitalWrite(led2, currentFloor == 2 ? HIGH : LOW);
   digitalWrite(led3, currentFloor == 3 ? HIGH : LOW);
 }
-```
+</code></pre>
 > ## ***<font color="lighblue">L293D MOTOR DRIVER CONNECTIONS</font>***
 
 | **<font color="lightgreen">DRIVER PIN</font>** | **<font color="lightgreen">CONNECTION</font>** |
