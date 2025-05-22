@@ -1,4 +1,4 @@
-# <center><font color="yellow">**ARDUINO ELEVATOR DESIGN**</font></center>
+# <center><font color="yellow">ARDUINO ELEVATOR DESIGN</font></center>
 ### **<font color="lighblue">Table of Contents:</font>**
 1. <a href="#overview">Overview</a>
 2. <a href="#hardware-components">Hardware components</a>
