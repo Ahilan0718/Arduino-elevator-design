@@ -15,15 +15,15 @@
   A simple arduino-based elevator design for three floors with two second travel time to each floor indicated by LEDs. Enabled by a DC motor installed with a L293D motor driver module. Designed in TinkerCAD.
 
 > ## ***<font color="lighblue">HARDWARE COMPONENTS</font>***
-**1. Arduino UNO Rev3**</br>
-**2. Breadboard (small)**</br>
-**3. LEDs (3 in number, preferrably different colours)**</br>
+**1. Arduino UNO Rev3**  
+**2. Breadboard (small)**  
+**3. LEDs (3 in number, preferrably different colours)**  
 **4. 10kΩ Pull-down resistors (3 in number)**
-**5. 220Ω Current-limiting resistors (3 in number)**</br>
-**6. Push buttons (3 in number)**</br>
-**7. DC Motor**</br>
-**8. 16-pin L293D Motor driver module**</br>
-**9. Jumper wires**
+**5. 220Ω Current-limiting resistors (3 in number)**  
+**6. Push buttons (3 in number)**  
+**7. DC Motor**  
+**8. 16-pin L293D Motor driver module**  
+**9. Jumper wires**  
 
 > ## ***<font color="lighblue">CODE</font>***
 **Can be coded in <mark>C++ or Arduino IDE</mark> or any other compatible software.**
