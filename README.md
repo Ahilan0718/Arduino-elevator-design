@@ -126,7 +126,7 @@ void updateLEDs() {
 
 - <mark>Pull-down resistors</mark> should be connected between the digital pin and the GND pin of the Arduino.
 
-- <mark>Current-limiting resistors</mark> should be connected between the cathode leg of the LEDs and the GND pin of the Arduino to prevent frying of the resistors.
+- <mark>Current-limiting resistors</mark> should be connected between the cathode leg of the LEDs and the GND pin of the Arduino to prevent frying of the LEDs.
 
 - Ensure that the <mark>anode leg of the LEDs</mark> are connected to the corresponding digital pins(as enabled in the code) of the Arduino.
 
